@@ -38,7 +38,7 @@ const Header = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="bg-primary dark:bg-dark fixed w-full box-border p-[10px] border-b-[1px]">
+    <div className="bg-primary dark:bg-dark fixed w-full box-border p-[10px] border-b-[1px] z-[10000]">
       <Container>
         <div className="flex justify-between uppercase text-[12px] font-[400] relative py-2">
           {/* logo - items-start */}
