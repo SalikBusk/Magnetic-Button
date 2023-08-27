@@ -33,6 +33,7 @@ export const FramerMagnetic: React.FC<ButtonProps> = ({ children }) => {
       onMouseLeave={reset}
       animate={{ x, y }}
       transition={{ type: "spring", stiffness: 150, damping: 15, mass: 0.1 }}
+      className=""
     >
       {children}
     </motion.div>

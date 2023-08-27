@@ -34,12 +34,14 @@ const Card: React.FC<CardProps> = ({ image, title, price, id }) => {
       {/* Button that follows the mouse then hovring */}
       <div className="absolute hidden group-hover:block">
         <FramerMagnetic>
-          <Link
-            className="px-[20px] py-[10px] bg-dark text-primary rounded-full"
-            to={`/product/${id}`}
-          >
-            View
-          </Link>
+          <div >
+            <Link
+              className="px-[40px] py-[20px] bg-dark text-primary rounded-full"
+              to={`/product/${id}`}
+            >
+              View
+            </Link>
+          </div>
         </FramerMagnetic>
       </div>
       <figcaption className="mt-5">
